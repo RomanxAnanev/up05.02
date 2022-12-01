@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: Roboto;
+}
+
+body{
+    background-color: #202731;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+.header__nav{
+    margin-top: 40px;
+}
+.header__nav a{
+    color: #202731;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 21px;
+}
+.main{
+    margin-top: 40px;
+}
+.main__cardContent{
+    display: flex;
+    color: #fff;
+}
+.cardContent__description{
+    margin-top: -25px;
+}
+
+.cardContent__img{
+    margin-right: 30px;
+}
+.cardContent__img img{
+    width: 500px;
+    height: 700px;
+    
+}
+.cardContent__description h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.cardContent__description h2{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.description__frames{
+    display: flex;
+    width: 250px;
+    margin-bottom: 25px;
+}
+.description__text{
+    width: 600px;
+    margin-bottom: 25px;
+}
+.main__trailer{
+    display: flex;
+    margin-top: 50px;  
+}
+.trailer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card__banner{
+    margin-right: 30px;
+}
+.banner__title{
+    background-color: #202731;
+    color: #fff;
+    height: 41px;
+    width: 300px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+.banner__title h2{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+/* .banner__image{
+    height: 385px;
+    width: 300px;
+    background-image: url(/img/Rectangle5.png);
+} */
+.banner__rate{
+    background-color: #202731;
+    height: 41px;
+    width: 300px;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    color: #fff;
+}
+.banner__rate p{
+    margin-left: 20px;
+    padding-top: 10px; 
+}
+.card__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description__title{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.description__image{
+    display: flex;
+    margin-bottom: 10px;
+}
+.iamge__container{
+    width: 200px;
+    height: 150px;
+}
+.iamge__container img{
+    width: 200px;
+    height: 150px;
+}
+.description__content{
+    margin-bottom: 10px;
+}
+.description__trailer{
+    margin-bottom: 10px;
+}
+.description__options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

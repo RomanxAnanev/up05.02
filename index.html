@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="scriptM.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="home">
+        <header class="header container">
+            <div class="header__logo">
+                <a href="#">Film<span>Pas</span></a>
+            </div>
+            <div class="header__nav">
+                <ul class="nav__items">
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="header__user">
+                <a href="#"><img src="img/user 1.svg" alt=""></a>
+            </div>
+        </header>
+    </section>
+    <main class="movies">
+        <form class="movies__sort" id="movies__sort">
+
+            <select class="sort" name="date" id="genre">
+                <option value="">Жанр фильма</option>
+                <option value="fantasy">Фантастика</option>
+                <option value="comedy">Комедия</option>
+                <option value="thriller">Триллер</option>
+                <option value="drama">Драмма</option>
+                <option value="horor">Ужасы</option>
+                <option value="action">Экшн</option>   
+                </select>
+    
+            <select class="sort" name="date" id="date">
+                <option value="">Год выпуска</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+            </select>
+
+            <select class="sort" name="rate" id="rate">
+                <option value="">Рейтинг</option>
+                <option value="возрастание">По возрастанию</option>
+                <option value="убывание">По убыванию</option>
+
+            </select>
+    
+            <select class="sort" name="age" id="age">
+                <option value="">Возраст</option>
+                <option value="21">21+</option>
+                <option value="18">18+</option>
+                <option value="16">16+</option>
+                <option value="12">12+</option>
+            </select>
+            <button class="reset" type="reset" from="movies__sort">Сброс</button>
+        </form>
+        <!-- <div class="addFiml">
+            <form class="addFilm__form">
+                <input type="text" placeholder="Название" name="new__ame">
+                <input type="text" placeholder="Обложка" name="new__image">
+                <input type="text" placeholder="Жанр" name="new__genre">
+                <input type="text" placeholder="Описание" name="new__content">
+                <input type="text" placeholder="Дата выхода" name="new__year">
+                <input type="text" placeholder="Рейтинг" name="new__rate">
+                <input type="text" placeholder="Возрастное ограничение" name="new__age">
+                <input type="text" placeholder="Трейлер" name="new__video">
+                <input type="submit" placeholder="Добавить фильм" id="addFilmbtn"> 
+            </form>
+        </div> -->
+        <div class="movies__cards">
+            <!-- карточки -->
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__conf ">
+                <p>© 2022 FilmPas. All right reserved.</p>
+            </div>
+            <div class="footer__contact">
+                <ul>
+                    <li>Почта: filmPas@mail.ru</li>
+                    <li>Телефон: +7-(999)-999-999</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+<!-- <div class="cards__card card-1">
+                <div class="card__title">
+                    <h1>Вышка</h1>
+                </div>
+                <div class="card__img">
+                    <div class="img__container">
+                        <a href="page.html?id=1"><img src="img/Rectangle5.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="card__rate">
+                    <p>6</p>
+                </div>
+            </div>
+        </div>-->
